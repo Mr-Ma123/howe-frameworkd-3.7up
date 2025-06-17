@@ -109,7 +109,7 @@ export default class PopManager {
     //B.多级弹窗--通过优先级处理 越低的越先出
     //B1.和上一级同时显示s
     //B2.上一级的隐藏显示
-    return new MPromise(async (reslove, reject) => {
+    return new Promise(async (reslove, reject) => {
       this.openShade();
       let tNode: Node = null;
       //空栈or栈顶不是要显示的

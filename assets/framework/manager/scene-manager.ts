@@ -60,7 +60,7 @@ export default class SceneManager {
                 else {
                     director.runScene(res);
                 }
-                //场景内没必要加--勾选自动释放即可
+                //场景内没必要加--勾选自动释放即可； 3.x的在场景上勾选 Auto Release Assets 即可
             })
         })
     }
